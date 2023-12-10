@@ -51,11 +51,13 @@ section.tools-section {
 section.tools-section img {
     width: 100%; 
     max-width: 400px;}
-    
+
 .product-listing {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 15px;
+    color: #6e1e1e;
 }
 
 .product {
