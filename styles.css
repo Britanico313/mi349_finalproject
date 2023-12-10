@@ -11,6 +11,11 @@ header {
     text-align: center;
 }
 
+.top-bar {
+    background-color: #6e1e1e;
+    height: 10px; 
+}
+
 nav ul {
     list-style-type: none;
     margin: 10px;
@@ -84,7 +89,6 @@ section.tools-section img {
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
-    color: white;
 }
 
 .contact-section label,
@@ -115,5 +119,5 @@ section.tools-section img {
     background-color: white;
     padding: 5px;
     cursor: pointer;
-    color: white;
+    color: #6e1e1e; 
 }
