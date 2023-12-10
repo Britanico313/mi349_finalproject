@@ -16,6 +16,10 @@ nav ul {
     margin: 10px;
     padding: 10px;
     color: bisque;
+    display: flex;
+    justify-content: space-around;
+    background-color: #8B4513; 
+    border-radius: 10px;
 }
 
 nav ul li {
@@ -75,9 +79,6 @@ section.tools-section img {
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-
-.contact-section {
     background-color: #8B4513; 
     padding: 20px;
     border-radius: 10px;
