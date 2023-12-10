@@ -1,0 +1,16 @@
+
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.tools-section {
+    margin-top: 20px;
+}
+
+section.tools-section img {
+    width: 100%; 
+    max-width: 400px;}
