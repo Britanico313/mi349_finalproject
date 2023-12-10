@@ -1,5 +1,5 @@
 body {
-    font-family: 'Ariel', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -45,7 +45,7 @@ section.tools-section {
 }
 
 section.tools-section img {
-    width: 100%; 
+    width: 100%;
     max-width: 400px;
 }
 
@@ -77,8 +77,17 @@ section.tools-section img {
     text-align: center;
 }
 
+.contact-section {
+    background-color: #8B4513; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
 .contact-section label,
-.contact-section textarea {
+.contact-section textarea,
+.contact-section select {
     width: 100%;
     margin-bottom: 10px;
 }
@@ -87,26 +96,30 @@ section.tools-section img {
     text-align: center;
 }
 
-
-.login-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.login-section form {
+.login-section form,
+.contact-section form {
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
 }
 
 .login-section label,
-.login-section input {
+.contact-section label,
+.login-section input,
+.contact-section input,
+.login-section button,
+.contact-section button {
     width: 100%;
     margin-bottom: 10px;
 }
 
-.login-section button {
+.login-section button,
+.contact-section button {
     width: 100%;
+    padding: 10px;
+    background-color: #6e1e1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
