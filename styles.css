@@ -96,33 +96,13 @@ section.tools-section img {
     margin-top: 20px;
 }
 
-.contact-section label,
-.contact-section textarea,
-.contact-section select {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
 .purchase-button {
     text-align: center;
 }
 
-.login-section form,
-.contact-section form {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.login-section label,
-.contact-section label,
-.login-section input,
 .contact-section input,
-.login-section button,
-.contact-section button {
-    width: 100%;
-    background-color: #c19a6b;
-    padding: 5px;
-    cursor: pointer;
-    color: #6e1e1e; 
+.contact-section select,
+.contact-section textarea {
+    background-color: #fff; 
+    color: black; 
 }
