@@ -127,7 +127,7 @@ section.tools-section img {
     flex-direction: column;
     max-width: min-content;
     align-items: center;
-    text-align: center;
+    text-align: left;
     background-color: #ffffff;
     padding: 1px;
     border-radius: 1px;
