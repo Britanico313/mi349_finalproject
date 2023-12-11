@@ -82,6 +82,7 @@ section.tools-section img {
 .product-listing {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
     padding: 15px;
     color: #6e1e1e;
@@ -123,7 +124,7 @@ section.tools-section img {
     border-radius: 10px;
     margin-top: 20px;
 }
-.product-listing,
+
 .contact-section,
 .cart-section {
     display: flex;
