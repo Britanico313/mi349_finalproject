@@ -20,12 +20,13 @@ nav ul {
     justify-content: space-around;
     border-radius: 10px;
 }
-
+.login-section,
 nav ul li {
     margin-right: 20px;
-    background-color: #868686;
+    background-color:#6e1e1e;
     padding: 5px;
     border-radius: 5px;
+    color: white;
 }
 
 footer {
