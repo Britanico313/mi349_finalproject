@@ -106,6 +106,9 @@ section.tools-section img {
 }
 
 .login-section {
+    display: flex;
+    flex-direction: column;
+    max-width: min-content;
     align-items: center;
     text-align: center;
     background-color: #ffffff;
