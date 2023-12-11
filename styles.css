@@ -72,6 +72,9 @@ section.tools-section img {
 .product {
     margin: 20px;
     text-align: center;
+    border: 1px solid #2c2828; 
+    border-radius: 5px; 
+    padding: 10px; 
 }
 
 .product img {
@@ -149,4 +152,18 @@ section.tools-section img {
 .login-section button:hover,
 .contact-section button:hover {
     background-color: #e0e0e0;
+}
+
+.cart-item {
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cart-item img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
 }
