@@ -123,7 +123,7 @@ section.tools-section img {
     border-radius: 10px;
     margin-top: 20px;
 }
-.product-listing
+.product-listing,
 .contact-section,
 .cart-section {
     display: flex;
