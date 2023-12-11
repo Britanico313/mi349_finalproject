@@ -147,8 +147,8 @@ section.tools-section img {
     transition: background-color 0.3s ease; 
 }
 .contact-section,
-.login-section
-.login-section label,
+.login-section,
+.login-part label,
 .contact-section label{padding: 5px;
 color: #e0e0e0;}
 .login-section button:hover,
