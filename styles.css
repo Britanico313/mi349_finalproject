@@ -10,9 +10,7 @@ header {
     padding: 10px;
     text-align: center;
 }
-label {display: block;
-    margin-bottom: 5px;
-   font-weight: bold;}
+
 nav ul {
     list-style-type: none;
     margin: 10px;
@@ -21,6 +19,9 @@ nav ul {
     display: flex;
     justify-content: space-around;
     border-radius: 10px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 nav ul li {
