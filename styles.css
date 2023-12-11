@@ -157,11 +157,20 @@ section.tools-section img {
     max-width: 400px;
     margin: 0 auto;
 }
+.login-part form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.login-part input,
+.login-part input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
 .login-part button {
-    text-align: center;
-    width: 75%;
+    width: 100%;
     background-color: white;
     padding: 10px;
     cursor: pointer;
@@ -170,6 +179,8 @@ section.tools-section img {
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
+
+
 
 .contact-section input,
 .contact-section button {
