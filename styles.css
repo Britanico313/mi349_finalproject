@@ -5,22 +5,22 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-header {
+  }
+  
+  header {
     background-color: #6e1e1e;
     color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
-}
-
-.top-bar {
+  }
+  
+  .top-bar {
     background-color: #6e1e1e;
     height: 15px;
     color: #6e1e1e;
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style-type: none;
     margin: 10px;
     padding: 10px;
@@ -28,16 +28,16 @@ nav ul {
     display: flex;
     justify-content: space-around;
     border-radius: 10px;
-}
-
-nav ul li {
+  }
+  
+  nav ul li {
     margin-right: 20px;
     background-color: #868686;
     padding: 5px;
     border-radius: 5px;
-}
-
-footer {
+  }
+  
+  footer {
     background-color: #6e1e1e;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -45,47 +45,50 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-main {
+  }
+  
+  main {
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
-}
-
-section.tools-section {
+    width: 70%; 
+    max-width: 1200px; 
+  }
+  
+  section.tools-section {
     margin-top: 20px;
-}
-
-section.tools-section img {
+  }
+  
+  section.tools-section img {
     width: 100%;
     max-width: 400px;
-}
-
-.product-listing {
+  }
+  
+  .product-listing {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 15px;
     color: #6e1e1e;
-}
-
-.product {
+    flex-grow: 1; 
+  }
+  
+  .product {
     margin: 20px;
     text-align: center;
-}
-
-.product img {
+  }
+  
+  .product img {
     width: 100%;
     max-width: 300px;
-    height: auto;
-}
-
-.login-section,
-.cart-section,
-.contact-section {
+    height: 200px; 
+  }
+  
+  .login-section,
+  .cart-section,
+  .contact-section {
     text-align: center;
     background-color: #6e1e1e;
     padding: 10px;
@@ -93,25 +96,28 @@ section.tools-section img {
     margin-top: 20px;
     width: 100%;
     box-sizing: border-box;
-}
-
-.login-section button,
-.cart-section button,
-.contact-section button {
+    flex-grow: 0; 
+  }
+  
+  .login-section button,
+  .cart-section button,
+  .contact-section button {
     cursor: pointer;
     color: #6e1e1e;
     background-color: #c19a6b;
     padding: 5px;
     width: 100%;
     box-sizing: border-box;
-}
-
-.contact-section input,
-.contact-section select,
-.contact-section textarea {
+  }
+  
+  .contact-section input,
+  .contact-section select,
+  .contact-section textarea {
     width: 100%;
     box-sizing: border-box;
     background-color: #fff;
     color: black;
     margin-bottom: 10px;
-}
+    flex-shrink: 1;
+  }
+  
