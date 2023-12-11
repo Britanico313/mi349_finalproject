@@ -96,8 +96,21 @@ section.tools-section img {
     margin-top: 20px;
 }
 
-.purchase-button {
-    text-align: center;
+.login-section > *,
+.cart-section > *,
+.contact-section > * {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.login-section button,
+.cart-section button,
+.contact-section button {
+    cursor: pointer;
+    color: #6e1e1e; 
+    background-color: #c19a6b;
+    padding: 5px;
 }
 
 .contact-section input,
@@ -106,4 +119,3 @@ section.tools-section img {
     background-color: #fff; 
     color: black; 
 }
-
