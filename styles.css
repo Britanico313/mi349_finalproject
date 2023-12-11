@@ -160,7 +160,7 @@ section.tools-section img {
 .contact-section input,
 .login-part button,
 .contact-section button {
-    width: 100%;
+    width: 80%;
     background-color: white;
     padding: 10px;
     cursor: pointer;
