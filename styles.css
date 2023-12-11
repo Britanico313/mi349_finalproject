@@ -116,6 +116,8 @@ section.tools-section img {
 .contact-section input,
 .contact-section select,
 .contact-section textarea {
+    width: 100%;
+    box-sizing: border-box;
     background-color: #fff; 
     color: black; 
 }
