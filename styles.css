@@ -169,12 +169,23 @@ section.tools-section img {
     max-width: 150px;
     height: auto;
 }
-.main {
-    display: flex;
-    flex-wrap: wrap;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
 
-.flex-item {
-    flex: 1;
-    margin-right: 20px; 
+.welcome-section, .tools-section, .reviews-section {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.review-author {
+    font-style: italic;
 }
