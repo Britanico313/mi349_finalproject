@@ -84,6 +84,7 @@ section.tools-section img {
     border-radius: 10px;
     margin-top: 20px;
 }
+.login-part,
 .contact-section,
 .cart-section {display: flex;
     flex-direction: column;
