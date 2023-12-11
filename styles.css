@@ -160,9 +160,10 @@ section.tools-section img {
 
 .login-part input,
 .login-part button {
+    text-align: center;
     width: 75%;
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
     color: black;
     border-color: black;
