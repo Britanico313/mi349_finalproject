@@ -133,9 +133,9 @@ section.tools-section img {
 }
 
 
-.login-section input,
+.login-part input,
 .contact-section input,
-.login-section button,
+.login-part button,
 .contact-section button {
     width: 100%;
     background-color: white;
