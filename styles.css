@@ -80,7 +80,7 @@ section.tools-section img {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: white;
+    background-color: rgba(194, 114, 40, 0.568);
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
@@ -111,8 +111,8 @@ section.tools-section img {
 .login-section button,
 .contact-section button {
     width: 100%;
-    background-color: #6e1e1e; 
+    background-color: white; 
     padding: 5px;
     cursor: pointer;
-    color: white; 
+    color: black; 
 }
