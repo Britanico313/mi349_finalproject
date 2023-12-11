@@ -174,7 +174,11 @@ section.tools-section img {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
-
+.welcome-tools-section, .reviews-section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;}
 .reviews-section {
     padding: 20px;
     border: 1px solid black;
