@@ -52,6 +52,23 @@ main {
     flex-direction: column;
     align-items: center;
 }
+section.welcome-section {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+section.tools-section {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+section.tools-section img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px; 
+}
+
+
 
 section.tools-section {
     margin-top: 20px;
@@ -192,6 +209,4 @@ section.tools-section img {
 }
 
 
-.welcome-section {
-    grid-column: span 2; 
-}
+
