@@ -68,12 +68,22 @@ main {
     border-radius: 5px;
     padding: 10px;
     box-sizing: border-box; 
+    background-color: #fff; 
 }
 
 .product img {
     width: 100%;
     max-width: 100%; 
     height: auto;
+}
+
+.product h3,
+.product p {
+    margin: 0; 
+}
+
+.product button {
+    margin-top: 10px; 
 }
 
 .login-section,
