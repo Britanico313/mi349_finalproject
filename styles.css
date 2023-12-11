@@ -134,6 +134,10 @@ section.tools-section img {
     border-radius: 1px;
     margin-top: 1px;
 }
+.login-section span {
+    margin-right: auto;
+    
+}
 
 .login-part {
     display: flex;
