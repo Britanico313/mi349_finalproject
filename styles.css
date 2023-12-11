@@ -33,7 +33,7 @@ footer {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 5px;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -80,7 +80,7 @@ section.tools-section img {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: rgba(194, 114, 40, 0.568);
+    background-color: #6e1e1e;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
