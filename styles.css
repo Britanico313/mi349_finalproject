@@ -175,7 +175,7 @@ section.tools-section img {
     gap: 20px;
 }
 
-.welcome-section, .tools-section, .reviews-section {
+.reviews-section {
     padding: 20px;
     border: 1px solid black;
     border-radius: 5px;
