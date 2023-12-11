@@ -146,7 +146,9 @@ section.tools-section img {
     border-radius: 5px;
     transition: background-color 0.3s ease; 
 }
-
+.login-section label,
+.contact-section label{padding: 5px;
+color: #e0e0e0;}
 .login-section button:hover,
 .contact-section button:hover {
     background-color: #e0e0e0;
