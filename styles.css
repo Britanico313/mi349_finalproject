@@ -52,15 +52,6 @@ main {
     align-items: center;
 }
 
-section.tools-section {
-    margin-top: 20px;
-}
-
-section.tools-section img {
-    width: 100%;
-    max-width: 400px;
-}
-
 .product-listing {
     display: flex;
     flex-wrap: wrap;
@@ -70,41 +61,23 @@ section.tools-section img {
 }
 
 .product {
+    flex: 0 0 300px; 
     margin: 20px;
     text-align: center;
-    border: 1px solid #2c2828; 
-    border-radius: 5px; 
-    padding: 10px; 
+    border: 1px solid #2c2828;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box; 
 }
 
 .product img {
     width: 100%;
-    max-width: 300px;
+    max-width: 100%; 
     height: auto;
 }
 
-.login-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #635f5f;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-.login-part {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(138, 77, 7);
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
+.login-section,
+.login-part,
 .contact-section,
 .cart-section {
     display: flex;
