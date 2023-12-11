@@ -190,3 +190,8 @@ section.tools-section img {
 .review-author {
     font-style: italic;
 }
+
+
+.welcome-section {
+    grid-column: span 2; 
+}
