@@ -16,7 +16,7 @@ header {
 
 .top-bar {
     background-color: #6e1e1e;
-    height: 15px; 
+    height: 15px;
     color: #6e1e1e;
 }
 
@@ -86,41 +86,32 @@ section.tools-section img {
 .login-section,
 .cart-section,
 .contact-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     background-color: #6e1e1e;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
-}
-
-.login-section > *,
-.cart-section > *,
-.contact-section > * {
     width: 100%;
-    padding: 5px;
     box-sizing: border-box;
-    margin-bottom: 10px;
 }
 
 .login-section button,
 .cart-section button,
 .contact-section button {
     cursor: pointer;
-    color: #6e1e1e; 
+    color: #6e1e1e;
     background-color: #c19a6b;
     padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .contact-section input,
 .contact-section select,
 .contact-section textarea {
     width: 100%;
-    padding: 5px;
-    margin-top: 10px;
     box-sizing: border-box;
-    background-color: #fff; 
-    color: black; 
+    background-color: #fff;
+    color: black;
+    margin-bottom: 10px;
 }
